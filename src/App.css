@@ -1,0 +1,149 @@
+.App{
+  background-color: rgba(207, 113, 182, 0.636);
+  color: white;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.logoName{
+  margin: 4px;
+  padding: 2px;
+  color: rgba(26, 114, 237, 0.752);
+  text-decoration: none;
+}
+.totalDetail{
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.detailsBrief{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(112, 127, 144);
+}
+.detailsBriefBox{
+  background-color: gray;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 6px;
+}
+.detailValue{
+  font-size: xx-large;
+  margin: 2px;
+}
+.detailName{
+  font-size: small;
+}
+.orderedProductBox{
+  border-left: 4px solid rgb(0, 166, 255) ;
+  padding: 5px;
+}
+.orderBox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+justify-content: center;
+color: white;
+margin-left: 40px;
+margin-right: 40px;
+
+}
+.priceStock{
+  display: flex;
+  flex-direction: row;
+}
+.orderName{
+  font-weight: bolder;
+}
+.priceNameStock_price{
+  font-weight: bolder;
+}
+.priceNameStock{
+  margin: 5px;
+}
+.orderButton{
+  margin: 5px;
+}
+.orderImg{
+  margin: 10px;
+  width: 180px;
+}
+.navButton{
+  text-decoration: none;
+  margin: 2px;
+  /* padding: 4px; */
+  color: black;
+  margin-right: 4px;
+}
+.navBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+justify-content: center;
+background-color: white;
+}
+.name{
+  color: white;
+}
+.addItem{
+  height: 100%;
+}
+.addForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.inputUpload{
+  margin: 12px;
+  padding: 6px;
+  
+}
+.input{
+  border-radius: 4px;
+  margin: 12px;
+  padding: 6px;
+  
+  width: 40%;
+}
+.inputAuth{
+  border-radius: 4px;
+  margin: 12px;
+  padding: 6px;
+  width: 20%;
+}
+.btn1{
+  margin: 4px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainBox{
+min-height: 90vh;
+}
+.fullbg{
+  background-color: rgb(18, 190, 112);
+}
+.authContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
